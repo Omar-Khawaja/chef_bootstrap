@@ -1,11 +1,12 @@
 # chef_bootstrap
 
-This script expedites bootstrapping nodes to Chef server
+This script expedites the bootstrapping process of your nodes to
+your chef server.
 
-This script will check if the file specifying your nodes exist, and then
-it will begin to bootstrap your nodes. If node names similar to the nodes
-you are trying to bootstrap already exist on the chef server, this script
-will automatically delete them first
+This script will check if the file specifying your nodes exists, and then
+it will begin to bootstrap your nodes. If the node names in your specified 
+file are the same as the node names on your chef server, this script
+will automatically delete the existing nodes first.
 
 Pay attention to the commented lines in the script where you need to insert
 your own information.
