@@ -11,5 +11,4 @@ will automatically delete the existing nodes first.
 Pay attention to the commented lines in the script where you need to insert
 your own information.
 
-Feel free to contribute or suggest improvements
-
+If you have not already done so, please note that you will first need to deploy SSH keys to any nodes you are trying to bootstrap. If you need to automate this process for multiple nodes, please see my script for doing so (https://github.com/Omar-Khawaja/ssh_addkeys).
