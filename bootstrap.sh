@@ -3,7 +3,7 @@
 # Specify your file below
 
 file=<your filename goes here>
-status=0
+slot=0
 
 printf "\nWelcome to 'BOOTSTRAP NODES'\n\n"
 printf "Looking for a file named $file in the present working directory...\n"
