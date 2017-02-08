@@ -39,7 +39,7 @@ while read line; do
 	knife bootstrap $line --ssh-user root --identity-file ~/.ssh/id_rsa --node-name $line --run-list 'recipe[<insert your cookbook name>]'
 	status=$?
 	if [ $status -ne 0 ]; then
-		arr_fails[slot]=$line
+		arr_fails[$slot]=$line
 		((slot++))
 	fi
 done < $file
